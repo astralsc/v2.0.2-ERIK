@@ -1,0 +1,37 @@
+{
+  "name": "nodebrawl-core",
+  "version": "2.3.1",
+  "description": "The world's first open source Brawl Stars private server core written on JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "tailsjs",
+  "license": "ISC",
+  "dependencies": {
+    "@projectdysnomia/dysnomia": "^0.2.3",
+    "archiver": "^8.0.0",
+    "axios": "^1.13.5",
+    "crypto": "^1.0.1",
+    "dysnomia": "^0.0.0",
+    "express": "^5.2.1",
+    "figlet": "^1.9.4",
+    "form-data": "^4.0.6",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "lzma-native": "^8.0.6",
+    "morgan": "^1.10.1",
+    "net": "^1.0.2",
+    "path": "^0.12.7",
+    "simple-rc4": "^0.0.1-b"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
